@@ -1,0 +1,30 @@
+
+CREAR UN CONTROLADOR
+
+php artisan make:controller NombreControlador
+
+CREAR SEEDER
+
+php artisan make:seeder NombreSeeder
+
+EJECUTAR MIGRACIONES
+
+php artisan migrate
+
+CREAR MIGRACIONES
+
+php artisan make:migration nameTable_table
+
+CREAR MODELO
+
+php artisan make:model NombreModelo
+
+CREAR MIDDLEWARE
+
+php artisan make:middleware NombreMiddleware
+
+REGISTRAR MIDDLEWARE
+
+En Kernel.php $routeMiddleware
+
+'role' => \App\Http\Middleware\EnsureUserHasRole::class
